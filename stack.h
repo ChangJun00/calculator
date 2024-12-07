@@ -2,6 +2,8 @@
 #define STACK_H
 #include <stdbool.h> 
 
+#define linux 5  // 추가 
+
 typedef int Item;
 typedef struct stack {
 Item * contents;

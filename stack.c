@@ -9,6 +9,7 @@ Stack * create_stack(int initial_size)
 	s->contents = (int *)malloc(initial_size*sizeof(Item));
 	s->top=0;
 	s->size=initial_size;
+	printf("My name is LeeChangJun_201912293\n");  // 추가
 	return s;
 }
 
